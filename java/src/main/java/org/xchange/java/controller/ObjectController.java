@@ -13,6 +13,27 @@ import org.xchange.java.service.UserService;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Contrôleur REST pour gérer les opérations sur les objets d'échange.
+ * 
+ * Ce contrôleur fournit des points d'accès pour créer, lire, mettre à jour et
+ * supprimer des objets d'échange.
+ * Il permet également de récupérer des objets par utilisateur et de récupérer
+ * tous les objets.
+ * 
+ * Les opérations suivantes sont disponibles :
+ * - Récupérer les objets d'un utilisateur spécifique.
+ * - Récupérer tous les objets.
+ * - Récupérer un objet par son identifiant.
+ * - Créer un nouvel objet.
+ * - Mettre à jour un objet existant.
+ * - Supprimer un objet.
+ * 
+ * Les services ObjectService et UserService sont utilisés pour effectuer les
+ * opérations nécessaires.
+ * 
+ * @author VotreNom
+ */
 @RestController
 @RequestMapping("/api/object")
 public class ObjectController {

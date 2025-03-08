@@ -1,3 +1,18 @@
+/**
+ * Contrôleur REST pour gérer les opérations CRUD sur les catégories.
+ * 
+ * Ce contrôleur fournit des endpoint pour :
+ * - Récupérer toutes les catégories
+ * - Récupérer une catégorie par son identifiant
+ * - Créer une nouvelle catégorie
+ * - Mettre à jour une catégorie existante
+ * - Supprimer une catégorie
+ * - Récupérer les objets associés à une catégorie
+ * 
+ * Les services CategoryService et ObjectService sont injectés pour gérer la logique métier.
+ * 
+ * @author VotreNom
+ */
 package org.xchange.java.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;

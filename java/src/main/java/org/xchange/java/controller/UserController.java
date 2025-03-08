@@ -10,6 +10,15 @@ import org.xchange.java.model.User;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Contrôleur REST pour gérer les opérations liées aux utilisateurs.
+ * Définit les endpoints pour les opérations CRUD et l'authentification des
+ * utilisateurs.
+ * 
+ * Chemin de base: /api/users
+ * 
+ * @author Celil
+ */
 @RestController
 @RequestMapping("/api/users") // Définit le chemin de base pour tous les endpoints dans ce contrôleur
 public class UserController {
